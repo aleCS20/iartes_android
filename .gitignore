@@ -1,0 +1,59 @@
+# Diretórios do build
+/build/
+/*/build/
+
+# Diretórios do Gradle
+.gradle/
+*/.gradle/
+
+# Arquivos locais do Android Studio
+.idea/
+*.iml
+*.iws
+
+# Arquivos de configuração local
+local.properties
+*.jks
+
+# Arquivos de log e de sistema
+*.log
+*.DS_Store
+*.swp
+*.swo
+
+# Diretórios de saída de build nativo
+.externalNativeBuild/
+
+# Capturas de tela e dados de testes
+captures/
+
+# Pasta do NDK (caso esteja usando)
+.cxx/
+
+# Cache do Gradle
+.gradle/
+*/.cxx/
+
+# Arquivos de cache do Lint
+lint/intermediates/
+lint/generated/
+
+# Arquivos do Mac/Linux/Windows que não são do projeto
+ehthumbs.db
+Icon?
+Thumbs.db
+desktop.ini
+
+# Arquivos de cache específicos do Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/misc.xml
+
+# Cache do Google Services (caso use Firebase)
+**/google-services.json
+**/google-services.plist
+
